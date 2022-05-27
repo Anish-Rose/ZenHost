@@ -1,0 +1,43 @@
+.checkbox-btn {
+  display: none;
+}
+.switch-btn-label {
+  border: 2px solid #bbb;
+  border-radius: 30px;
+  padding: 5px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.fa-sun {
+  color: orange;
+  font-size: 25px;
+  text-shadow: 0px 0px 20px orange;
+  transform: translateX(25px);
+  transition: 0.3s;
+}
+.fa-moon {
+  color: white;
+  font-size: 25px;
+  text-shadow: 0px 0px 20px white;
+  transform: translateX(0px);
+  opacity: 0;
+  transition: 0.3s;
+}
+#switch-button:checked ~ label > .fa-sun {
+  opacity: 0;
+  transform: translateX(0px);
+}
+#switch-button:checked ~ label > .fa-moon {
+  opacity: 1;
+  transform: translateX(-25px);
+}
+#switch-button:checked ~ .content {
+  background: black;
+  color: white;
+}

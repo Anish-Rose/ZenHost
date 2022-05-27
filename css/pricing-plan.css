@@ -1,0 +1,353 @@
+.pricing-plans-main {
+  background: #1e1e67;
+  min-height: 100vh;
+  padding: 5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pricing-main-h2 {
+  font-size: 5rem;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+}
+
+.pricing-main-h2 span {
+  font-size: 5rem;
+  font-weight: 600;
+  color: #0194fc;
+  text-align: center;
+}
+
+.pricing-container {
+  display: flex;
+  width: 95%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.pricingbasic {
+  background: rgb(244, 242, 255);
+  color: white;
+  border-radius: 10px;
+  margin: 2rem 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 40rem;
+  height: 90rem;
+  padding: 4rem;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+  margin: 5rem 1rem;
+}
+
+.pricingbasic h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: black;
+  padding: 2rem 0rem;
+  text-decoration: underline;
+}
+
+.pricingbasic h1 {
+  font-size: 3.5rem;
+  color: #0194fc;
+  border-radius: 10rem;
+}
+
+.pricingbasic li {
+  font-size: 1.5rem;
+  color: black;
+  padding: 1rem 0rem;
+  margin-top: 1.3rem;
+  text-align: left;
+}
+.fa-check {
+  font-size: 1.5rem;
+  color: green;
+  float: right;
+}
+
+.fa-xmark {
+  font-size: 1.5rem;
+  color: red;
+  float: right;
+}
+
+.pricingbasic button {
+  background: #0194fc;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-top: 2.5rem;
+}
+.pricingbasic button:hover {
+  background: #027cd3;
+}
+
+.pricingadvance {
+  background: rgb(75, 38, 208);
+  color: #fff;
+  border-radius: 10px;
+  margin: 2rem 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 40rem;
+  height: 95rem;
+  padding: 4rem;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+  margin: 5rem 1rem;
+}
+
+.pricingadvance h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: white;
+  padding: 2rem 0rem;
+  text-decoration: underline;
+}
+
+.pricingadvance h1 {
+  font-size: 5rem;
+  color: #0194fc;
+}
+
+.pricingadvance li {
+  font-size: 1.5rem;
+  color: white;
+  padding: 1rem 0rem;
+  margin-top: 1.3rem;
+  text-align: left;
+}
+
+.pricingadvance button {
+  background: transparent;
+  color: white;
+  border: 0.1rem solid #0194fc;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-top: 4rem;
+}
+.pricingadvance button:hover {
+  background: #0279ce;
+  border: none;
+}
+
+.pricingstandard {
+  background: rgb(244, 242, 255);
+  color: white;
+  border-radius: 10px;
+  margin: 2rem 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 40rem;
+  height: 90rem;
+  padding: 4rem;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+  margin: 5rem 1rem;
+}
+
+.pricingstandard h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: black;
+  padding: 2rem 0rem;
+  text-decoration: underline;
+}
+
+.pricingstandard h1 {
+  font-size: 3.5rem;
+  color: #0194fc;
+  border-radius: 10rem;
+}
+
+.pricingstandard li {
+  font-size: 1.5rem;
+  color: black;
+  padding: 1rem 0rem;
+  margin-top: 1.3rem;
+  text-align: left;
+}
+
+.pricingstandard button {
+  background: #0194fc;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-top: 2.5rem;
+}
+.pricingstandard button:hover {
+  background: #0193fcb9;
+}
+
+/* toggler */
+.pricing-switch-container {
+  display: flex;
+  width: 95%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 5rem;
+}
+
+.toggler::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  background-color: white;
+  position: absolute;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.toggler:checked:before {
+  right: 70%;
+}
+
+.toggle-switch {
+  display: flex;
+  height: 30px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: -1rem;
+}
+
+.toggler {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 8rem;
+  height: 40px;
+  background-color: #0194fc;
+  border-radius: 25px;
+  margin: 0 1rem;
+  position: relative;
+  cursor: pointer;
+}
+.toggle-switch span {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+}
+
+h1.title {
+  letter-spacing: 2px;
+  margin-top: 3rem;
+  font-size: 2rem;
+  color: #0193fcce;
+  text-align: center;
+}
+
+/* media query */
+
+@media (max-width: 1618px) {
+  .pricingadvance {
+    width: 40rem;
+    height: 90rem;
+  }
+}
+
+@media (max-width: 1400px) {
+  .pricing-container {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .pricing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+  }
+
+  .pricingbasic {
+    width: 100%;
+    height: auto;
+  }
+  .pricingadvance {
+    width: 100%;
+    height: auto;
+  }
+  .pricingstandard {
+    width: 100%;
+    height: auto;
+  }
+  .pricing-plans-main {
+    padding: 5rem 0;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .pricingbasic li {
+    width: 100%;
+    font-size: 1rem;
+  }
+  .pricingstandard li {
+    font-size: 1rem;
+    width: 100%;
+  }
+  .pricingadvance li {
+    font-size: 1rem;
+    width: 100%;
+  }
+
+  .pricing-plans-main {
+    padding: 5rem 0;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .pricingbasic h1 {
+    background-color: transparent;
+  }
+  .pricingstandard h1 {
+    background-color: transparent;
+  }
+  .pricingadvance h1 {
+    background-color: transparent;
+  }
+  .toggler {
+    width: 100%;
+  }
+  .pricingadvance button {
+    font-size: 1rem;
+  }
+  .pricingbasic button {
+    font-size: 1rem;
+  }
+  .pricingstandard button {
+    font-size: 1rem;
+  }
+  .pricingadvance h1 {
+    font-size: 3rem;
+  }
+}

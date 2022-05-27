@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZenHost</title>
+    <script src="https://kit.fontawesome.com/733b6f16c9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/fontawesome-free-6.0.0-web/all.min.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/servive.css">
+    <link rel="stylesheet" href="./css/pricing-plan.css">
+    <link rel="stylesheet" href="./css/testimonial.css">
+    <link rel="stylesheet" href="./css/aboutUs.css">
+    <link rel="stylesheet" href="./css/Footer.css">
+    <link rel="stylesheet" href="./css/darkmodeswitch.css">
+    <link rel="stylesheet" href="./css/darkmode.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#"><img src="./assests/logo.png" alt=""></a>
+                <h1><a href="#">ZenHost</a></h1>
+            </div>
+
+            <ul class="nav-menu">
+                <li><a href="#" class="nav-link">Home</a></li>
+                <li><a href="#prices" class="nav-link">Prices</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#aboutUs" class="nav-link">About Us</a></li>
+                <li><a href="#footer" class="nav-link">Contact Us</a></li>
+                <li><a href="#review" class="nav-link">Testimonials</a></li>
+                <li><a href="#" class="nav-link">Log in</a></li>
+                <li><a href="#" class="nav-link">Cart</a></li>
+                <input type="checkbox" id="switch-button" class="checkbox-btn">
+                <label for="switch-button" class="switch-btn-label">
+                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-moon"></i>
+                </label>
+            </ul>
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div><!-- nav-container -->
+    </nav>
+    <header class="heroheader">
+        <div class="herocontainer">
+            <div class="hero-section">
+                <h2>Do You Need Reliable <span>Hosting Services?</span></h2>
+                <p>
+                    A ton of website hosting options, 99.9% uptime guarantee, free<br>SSL certificate, easy
+                    WordPress
+                    installs for your business website.
+
+                </p>
+                <div class="hero-btn">
+                    <button class="btn btn1">Get Started</button>
+                </div>
+            </div>
+            <img src="./assests/442.png" alt="" />
+        </div>
+    </header>
+    <!-- cards -->
+    <section class="boxes" id="services">
+        <div class="box-text-section">
+            <h2>Our <span>Best Services</span></h2>
+            <p class="p">DISCOVER MORE ABOUT OUR CONNECTIVITY AND HOSTING SERVICES</p>
+        </div>
+        <div class="box1-container">
+
+            <div class="box2">
+                <div class="img-box">
+                    <img src="./assests/s1.png" alt="sharedhosting">
+                </div>
+                <h2>Shared Hosting</h2>
+                <p>
+                    ZenHost is a credible and trusted name in the world of Hosting. All you need to do is to sign up and
+                    start using our services.
+                </p>
+            </div>
+
+            <div class="box2">
+                <div class="img-box">
+                    <img src="./assests/s2.png" alt="sharedhosting">
+                </div>
+                <h2>Dedicated Hosting</h2>
+                <p>
+                    ZenHost dedicated servers give you the highest levels of download speed, performance and reliability
+                </p>
+            </div>
+
+            <div class="box2">
+                <div class="img-box">
+                    <img src="./assests/s3.png" alt="sharedhosting">
+                </div>
+                <h2>Website Hosting</h2>
+                <p>
+                    Multiple servers built on our HA platform allow your website to float in the cloud and be delivered
+                    at a moments notice.
+                </p>
+            </div>
+        </div>
+        <div class="box2-container">
+            <div class="box2">
+                <div class="img-box">
+                    <img src="./assests/s6.png" alt="sharedhosting">
+                </div>
+                <h2>WordPress Hosting</h2>
+                <p>
+                    Get up and running fast with WordPress. Optimized for performance and preconfigured for easy
+                    maintenance.
+                </p>
+            </div>
+
+            <div class="box2">
+                <div class="img-box">
+                    <img src="./assests/s5.png" alt="sharedhosting">
+                </div>
+                <h2>VPS Hosting</h2>
+                <p>
+                    Virtual Private Servers with ultra-fast SSDs and flexibility with HTTP/2, Ubuntu, IPv6, Nginx,
+                    Node.js and more.
+                </p>
+            </div>
+
+            <div class="box2">
+                <div class="img-box">
+                    <img src="./assests/s4.png" alt="sharedhosting">
+                </div>
+                <h2>Cloud Hosting</h2>
+                <p>
+                    Lightning-fast servers with root access, SSD storage and blazing-fast networking powered by open
+                    APIs through OpenStack.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- end of cards -->
+    <!--  -->
+    <header class="pricing-plans-main" id="prices">
+        <h2 class="pricing-main-h2">Pricing <span>Plans</span></h2>
+        <h1 class="title">Choose a plan</h1>
+        <div class="pricing-switch-container">
+            <div class="toggle-switch">
+                <span>Billed anually </span>
+                <input type="checkbox" class="toggler">
+                <span> Billed monthly</span>
+            </div>
+            <div class="pricing-container">
+                <div class="pricingbasic" id="basic">
+                    <h2>Basic Plan</h2>
+                    <h1 class="basic">₹79.00</h1>
+                    <ul>
+                        <li>1 Websites <i class="fa-solid fa-check"></i></li>
+                        <li>30 GB SSD Storage <i class="fa-solid fa-check"></i></li>
+                        <li>10000 Visits Monthly <i class="fa-solid fa-check"></i></li>
+                        <li>Free Email <i class="fa-solid fa-check"></i></li>
+                        <li>Free SSL (₹855 value) <i class="fa-solid fa-check"></i></li>
+                        <li>Free Domain (₹679 value) <i class="fa-solid fa-xmark"></i></li>
+                        <li>Unlimited Bandwidth <i class="fa-solid fa-xmark"></i></li>
+                        <li>Managed WordPress <i class="fa-solid fa-check"></i></li>
+                        <li>WordPress Acceleration <i class="fa-solid fa-check"></i></li>
+                        <li>Money Back Guarantee <i class="fa-solid fa-check"></i></li>
+                        <li>Unlimited Databases <i class="fa-solid fa-xmark"></i></li>
+                        <li>SSH Access <i class="fa-solid fa-check"></i></li>
+                        <li>Free CDN (₹545 value) <i class="fa-solid fa-xmark"></i></li>
+                        <button>Add TO Cart</button>
+                    </ul>
+                </div> <!-- pricingbasic -->
+
+                <div class="pricingadvance" id="advance">
+                    <h2>Advanced Plan</h2>
+                    <h1 class="advance">₹279.00</h1>
+                    <ul>
+                        <li>150 Websites <i class="fa-solid fa-check"></i></li>
+                        <li>200 GB SSD Storage<i class="fa-solid fa-check"></i></li>
+                        <li>100000 Visits Monthly<i class="fa-solid fa-check"></i></li>
+                        <li>Free Email <i class="fa-solid fa-check"></i></li>
+                        <li>Free SSL (₹855 value)<i class="fa-solid fa-check"></i></li>
+                        <li>Free Domain (₹679 value)<i class="fa-solid fa-check"></i></li>
+                        <li>Unlimited Bandwidth <i class="fa-solid fa-xmark"></i></li>
+                        <li>Managed WordPress<i class="fa-solid fa-check"></i></li>
+                        <li>WordPress Acceleration<i class="fa-solid fa-check"></i></li>
+                        <li>Money Back Guarantee <i class="fa-solid fa-check"></i></li>
+                        <li>Unlimited Databases <i class="fa-solid fa-xmark"></i></li>
+                        <li>SSH Access<i class="fa-solid fa-check"></i></li>
+                        <li>Free CDN (₹545 value)<i class="fa-solid fa-check"></i></li>
+                        <button>Add TO Cart</button>
+                    </ul>
+                </div> <!-- pricingAdvanced -->
+
+                <div class="pricingstandard" id="standard">
+                    <h2>Standard Plan</h2>
+                    <h1 class="standard">₹139.00</h1>
+                    <ul>
+                        <li>100 Websites<i class="fa-solid fa-check"></i></li>
+                        <li>100 GB SSD Storage<i class="fa-solid fa-check"></i></li>
+                        <li>50000 Visits Monthly<i class="fa-solid fa-check"></i></li>
+                        <li>Free Email <i class="fa-solid fa-check"></i></li>
+                        <li>Free SSL (₹855 value)<i class="fa-solid fa-check"></i></li>
+                        <li>Free Domain (₹679 value)<i class="fa-solid fa-check"></i></li>
+                        <li>Unlimited Bandwidth<i class="fa-solid fa-check"></i></li>
+                        <li>Managed WordPress<i class="fa-solid fa-check"></i></li>
+                        <li>WordPress Acceleration<i class="fa-solid fa-check"></i></li>
+                        <li>Money Back Guarantee <i class="fa-solid fa-check"></i></li>
+                        <li>Unlimited Databases<i class="fa-solid fa-check"></i></li>
+                        <li>SSH Access<i class="fa-solid fa-check"></i></li>
+                        <li>Free CDN (₹545 value)<i class="fa-solid fa-check"></i></li>
+                        <button>Add TO Cart</button>
+                    </ul>
+                </div> <!-- pricingStandard -->
+            </div><!-- Pricing-container -->
+    </header><!-- pricing-main -->
+
+    <!-- prices -->
+    <section id="review">
+        <div class="container">
+            <div class="section-title">
+                <h2>Testimonials</h2>
+                <span class="section-separator"></span>
+                <p>Over 18,000 customers worldwide choose us as their web hosting solution</p>
+            </div>
+        </div>
+        <div class="testimonials-carousel-wrap">
+            <div class="testimonials-carousel">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="testi-item">
+                                <div class="testi-avatar"><img src="./assests/21.jpg"></div>
+                                <div class="testimonials-text-before"><i class="fa fa-quote-right"></i></div>
+                                <div class="testimonials-text">
+                                    <div class="listing-rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <p>
+                                        I really appreciate your services. From the customer service staff to the
+                                        technical staff, everyone that I have had the opportunity to interact with, were
+                                        very professional. I am so happy that I made the choice to change to ZenHost
+                                        Web Hosting. Ever since, I have had no regrets but gratitude.</p>
+
+                                    <div class="testimonials-avatar">
+                                        <h3>John Doe</h3>
+                                        <h4>Developer</h4>
+                                    </div>
+                                </div>
+                                <div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div>
+                            </div>
+                        </div>
+
+                        <!--second--->
+                        <div class="swiper-slide">
+                            <div class="testi-item">
+                                <div class="testi-avatar"><img src="./assests/3.jpg"></div>
+                                <div class="testimonials-text-before"><i class="fa fa-quote-right"></i></div>
+                                <div class="testimonials-text">
+                                    <div class="listing-rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <p>Recently I transferred all my domains from a USA based company to ZenHost Web
+                                        Hosting and the transfer went exceptionally well, as a web designer I find there
+                                        are many technical queries that arise that need answers. The technical support I
+                                        have received from the ZenHost Web Hosting support team has been excellent and
+                                        I would recommend this server and their staff to any business.</p>
+                                    <div class="testimonials-avatar">
+                                        <h3>Doe Boe</h3>
+                                        <h4>Developer</h4>
+                                    </div>
+                                </div>
+                                <div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div>
+                            </div>
+                        </div>
+                        <!--third-->
+
+                        <div class="swiper-slide">
+                            <div class="testi-item">
+                                <div class="testi-avatar"><img src="./assests/4.jpg"></div>
+                                <div class="testimonials-text-before"><i class="fa fa-quote-right"></i></div>
+                                <div class="testimonials-text">
+                                    <div class="listing-rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <p>You guys are the best! I am an infrastructure systems administrator – 25 years
+                                        (obviously, with very little web type experience :) ) I do, however, understand
+                                        the value of a responsive and knowledgeable support team and ZenHost Web
+                                        Hosting Support team has NEVER let me down!</p>
+
+                                    <div class="testimonials-avatar">
+                                        <h3>Boe Doe</h3>
+                                        <h4>Designer</h4>
+                                    </div>
+                                </div>
+                                <div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div>
+                            </div>
+                        </div>
+
+                        <!--fourth-->
+                        <div class="swiper-slide">
+                            <div class="testi-item">
+                                <div class="testi-avatar"><img src="./assests/6.jpg"></div>
+                                <div class="testimonials-text-before"><i class="fa fa-quote-right"></i></div>
+                                <div class="testimonials-text">
+                                    <div class="listing-rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <p>Just a brief note to say how impressed I was with your colleague/technician Abner
+                                        Osana. We were on the phone together for over 2.5 hours. He was very courteous,
+                                        professional and most important of all he was incredibly persistent.
+                                        Accordingly, my technical issue has been resolved.</p>
+
+                                    <div class="testimonials-avatar">
+                                        <h3>Doe John</h3>
+                                        <h4>Designer</h4>
+                                    </div>
+                                </div>
+                                <div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div>
+                            </div>
+                        </div>
+                        <!--testi end-->
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="tc-pagination"></div>
+        </div>
+    </section>
+
+    <!-- about section -->
+    <header class="about-main">
+        <div class="aboutcontainer" id="aboutUs">
+            <div class="about-section">
+                <h2>24/7 Expert Hosting</h2>
+                <p>
+                    Our globally distributed team allows us to serve as reliable partners for your needs, no matter what
+                    time of day. We are always accessible via Slack instant Phone, Email, Discord.
+                </p>
+
+                <div class="about-btn">
+                    <button class="abtbtn">Contact Us</button>
+                </div>
+            </div>
+            <div class="about-img">
+                <img src="./assests/call-center2.png" alt="" />
+            </div>
+        </div>
+    </header>
+    <!-- ABOUT US END -->
+
+    <!-- CONTACT US -->
+    <div class="contact-container" id="footer">
+        <div class="contact-section-text">
+            <h2>Get In Touch</h2>
+            <p>
+                Please fill out the form below and we will get back to you as soon as possible.
+            </p>
+        </div>
+        <form action="https://formspree.io/f/xlezlrqb" method="POST">
+
+            <label for="fname" class="contact-label">First Name</label>
+            <input type="text" id="fname" name="First Name" placeholder="Enter Your First Name" class="form-text">
+
+            <label for="lname" class="contact-label">Last Name</label>
+            <input type="text" id="lname" name="Last Name" placeholder="Enter Your Last Name" class="form-text">
+
+            <label for="telnumber" class="contact-label">Phone Number</label>
+            <input type="tel" id="telnumber" name="Phone Number" placeholder="Enter Your Phone Number"
+                class="form-text">
+
+            <label for="subject" class="contact-label">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Please Describe Your Issue" style="height:200px"
+                class="form-text"></textarea>
+            <input type="submit" value="Submit" class="conatct-btn">
+
+        </form>
+    </div>
+    <!-- CONTACT US END -->
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="row">
+                <div class="footer-list">
+                    <h2>Home</h2>
+                    <ul>
+                        <li><a href="#">WordPress Hosting</a></li>
+                        <li><a href="#">Web Hosting</a></li>
+                        <li><a href="#">VPS Hosting</a></li>
+                        <li> <a href="#">Dedicated Servers</a></li>
+                        <li><a href="#">Cloud Hosting</a></li>
+                        <li><a href="#">Reseller Hosting</a></li>
+                        <li> <a href="#">SSL Certificates</a></li>
+                        <li> <a href="#">Domain Names</a></li>
+                    </ul>
+                </div>
+                <div class="footer-list">
+                    <h2>Services</h2>
+                    <ul>
+                        <li><a href="#">Web Hosting</a></li>
+                        <li><a href="#">VPS Hosting</a></li>
+                        <li><a href="#">Dedicated Servers</a></li>
+                        <li><a href="#">Cloud Hosting</a></li>
+                        <li><a href="#">Reseller Hosting</a></li>
+                    </ul>
+                </div>
+                <div class="footer-list">
+                    <h2>Support</h2>
+                    <ul>
+                        <li><a href="#">Ticket Support</a></li>
+                        <li><a href="#">Contact Support</a></li>
+                        <li><a href="#">Dedicated Servers</a></li>
+                        <li><a href="#">Knowledgebase</a></li>
+                        <li><a href="#">Status</a></li>
+                    </ul>
+                </div>
+                <div class="footer-list">
+                    <h2>Follow us</h2>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- SCRIPTS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.js"></script>
+    <script src="./js/all.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>

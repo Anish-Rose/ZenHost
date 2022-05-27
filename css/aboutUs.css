@@ -1,0 +1,119 @@
+/* hero section */
+
+.about-main {
+  background-image: url("https://wp.dreamitsolution.net/delton/wp-content/uploads/2021/09/bg01.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.aboutcontainer {
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 95%;
+  margin: 0 auto;
+  padding: 5rem;
+}
+
+.aboutcontainer img {
+  max-width: 800px;
+}
+
+.about-section h2 {
+  color: #0194fc;
+  font-weight: bold;
+  font-size: 3.5rem;
+  text-decoration: underline;
+}
+
+.about-section p {
+  font-size: 1.5rem;
+  color: white;
+  padding-top: 3rem;
+  font-weight: lighter;
+  line-height: 3.5rem;
+}
+
+.about-btn {
+  display: flex;
+  color: black;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 3rem;
+}
+
+.abtbtn {
+  background: #0194fc;
+  color: white;
+  padding: 1rem 5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+}
+
+.abtbtn:hover {
+  background: #0193fcb7;
+  transition: background 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 1476px) {
+  .aboutcontainer img {
+    padding-top: 5rem;
+  }
+
+  .about-btn {
+    margin-top: 10rem;
+  }
+
+  .about-section h2 {
+    font-size: 2.5rem;
+  }
+
+  .about-section p {
+    font-size: 1.8rem;
+  }
+
+  .about-img img {
+    max-width: 300px;
+    margin-bottom: 5rem;
+  }
+}
+
+@media screen and (max-width: 762px) {
+  .aboutcontainer {
+    flex-direction: column-reverse;
+  }
+  .about-section h2 {
+    text-align: center;
+  }
+  .about-section p {
+    text-align: center;
+  }
+  .about-btn {
+    justify-content: center;
+    margin-bottom: 10rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about-section h2 {
+    font-size: 2rem;
+  }
+
+  .about-section p {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .aboutcontainer img {
+    max-width: 250px;
+  }
+}
