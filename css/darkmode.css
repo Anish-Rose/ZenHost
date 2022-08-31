@@ -9,9 +9,31 @@
   color: #f5f5f5 !important;
 }
 .border-color {
-  border: 5px solid #0194fc !important;
+  border: 1px solid #0194fc !important;
 }
 
 .dark-mode-nav {
   background: #0b0b47 !important;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #0fc3ff #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #0fc3ff;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
 }
